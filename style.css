@@ -1,0 +1,66 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+.calendar_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.calendar_component table {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+
+.calendar_component th {
+    border: 1px solid;
+    height: 2em;
+}
+
+.calendar_component td {
+    border: 1px solid;
+    padding: 5px;
+    height: 14%;
+}
+
+.calendar_component .selected {
+    background-color: brown;
+}
+
+.calendar_component .cell-date {
+    text-align: center;
+    vertical-align: middle;
+    height: 2em;
+}
+
+.calendar_component .cell-tag-container {
+    height: 5em;
+    max-height: 5em;
+    word-spacing: 0.1em;
+}
+
+.calendar_component .cell-tag {
+    background-color: tan;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 0.1em; */
+    /* margin-bottom: 0.1em; */
+    border-radius: 0.2em;
+}
